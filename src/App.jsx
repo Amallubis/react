@@ -1,15 +1,17 @@
-import { useState } from "react";
+import Welcome from "./component/Welcome"
+const name= "Amal"
+
 
 function App() {
-  const [count, setCount] = useState(0);
 
-  return(
+  return (
   <div>
-      <h1>Count: {count}</h1>
-      <button onClick={() => setCount(count + 1)}>Tambah</button>
-      <button onClick={() => setCount(count - 1)}>Kurang</button>
+    <h1>Helo World</h1>
+      <p>Selamat Datang di dunia React : {name}</p>
+      < Welcome />
+      < Welcome />
+      < Welcome />
   </div>
   );
 }
-
 export default App;
