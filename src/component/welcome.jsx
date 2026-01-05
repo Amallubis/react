@@ -1,9 +1,10 @@
 
-function Welcome(props) {
+function Welcome({name, alamat, age}) {
   return (
     <div>
-    <h1>Halo, {props.name}</h1>
-    <p>Umur, {props.age}</p>
+    <p>Halo, {name}</p>
+    <p>Alamat Kamu : {alamat}</p>
+    <p>Umur kamu : {age}</p>
     </div>
   )
 
