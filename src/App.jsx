@@ -17,6 +17,7 @@ function App() {
   <div>
       <h1>coba coba</h1>
       <h2>ini coba lagi </h2>
+      <h2>edit mapping</h2>
       <h1>Daftar todo</h1>
       <ul>
         {todos.map((todo, index) = {
