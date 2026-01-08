@@ -5,14 +5,24 @@ const name = "Amal"
 
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [todos, setTodos] = useState(["Belajar React","Belajar JSX"])
   const addTodo = ()=>{
     setTodos([...todos, "Belajar State"])
   };
-
   const [count, setCount] = useState(0)
 
   return (
+    <div>
+      {isLoggedIn ? (
+      <h1>Selamat datang kembali</h1>
+      ) : (
+      <h1>Silahkan login terlebih dahulu</h1>
+      )}
+      <button onClick={() => setIsLoggedIn(!isLoggedIn)}>
+        {isLoggedIn ? "Logout" : "Login"}
+      </button>
+    </div>
     
   <div>
       <h1>coba coba</h1>
