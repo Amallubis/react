@@ -19,6 +19,7 @@ function App() {
       <h2>ini coba lagi </h2>
       <h2>edit mapping</h2>
       <h1>Daftar todo</h1>
+      <h1>Azure AI</h1>
       <ul>
         {todos.map((todo, index) = {
           <li key={index}>{todo}</li>
