@@ -23,11 +23,10 @@ function App() {
       <button onClick={() => setIsLoggedIn(!isLoggedIn)}>
         {isLoggedIn ? "Logout" : "Login"}
       </button>
-    </div>
     
-  <div>
-      < Foter />
       <h1>coba coba</h1>
+    </div>
+    <div>
       <h2>ini coba lagi </h2>
       <h2>edit mapping</h2>
       <h1>Daftar todo</h1>
@@ -45,7 +44,6 @@ function App() {
     <h1>Helo World</h1>
       <p>Selamat Datang di dunia React : {name}</p>
       < Welcome name="budi" alamat="Jalan setia budi" age={32} />
-  </div>
   );
 }
 export default App;
