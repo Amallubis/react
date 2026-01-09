@@ -1,5 +1,6 @@
 import {useState} from "react";
 import Welcome from "./component/Welcome"
+import Footer from "./component/Footer"
 
 const name = "Amal"
 
@@ -25,6 +26,7 @@ function App() {
     </div>
     
   <div>
+      < Foter />
       <h1>coba coba</h1>
       <h2>ini coba lagi </h2>
       <h2>edit mapping</h2>
