@@ -26,6 +26,8 @@ function App() {
     
       <h1>coba coba</h1>
       <h1>Belum sempat lagi untuk melanjutkan react</h1>
+      <h1>Belum sempat lagi untuk melanjutkan react</h1>
+      
     </div>
     <div>
       <h2>ini coba lagi </h2>
